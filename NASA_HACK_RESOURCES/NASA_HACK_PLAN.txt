@@ -1,0 +1,59 @@
+				****************************************NASA Space Hackathon doc**************************************************
+
+************************************************************Problem statement *************************************************************************
+Climate change brings about new complexities to consider for maintaining the wellbeing of society and the
+ environment in cities. Natural resources, ecosystems, and existing infrastructure all must be monitored to ensure
+ human quality of life remains high. Your challenge is to demonstrate how an urban planner can use NASA Earth
+ observation data to develop smart strategies for city growth that maintain both the wellbeing of people and the
+ environment
+
+*************************************************************Our Solution ************************************************************************************
+
+We will be building a webapp to resolve this problem , by initially providing the problems like land surface Temperature  ,vegitation rate etcn through NASA fetched dataset and then we will be providing the starategic solution to build and plan the urban construction by keepng these sort of problems and conditins in mind .
+
+************************************************************ Action Users ************************************************************************************
+
+1> Property Buyer or Builders :- These Type of users are big builders and urban planners who wants to do construction in urban area by keeping their environmental reputation in mind , these types of users will  create their account on our webpage and will surf for the better locations by getting the on time data on environmental condiations , that data can be saved in our database and builders can create a virtual project on our system along with the strategic recommendations which will keep the climatic conditions of that particular area in mind . 
+
+2> Property Buyers :- These type of Users are the one who are intrested in buying a property , which is climatically favourable also they can view which property is favourable according to them along with this they can view the sustainable projects being created by builder so that a marketplace can also be created for builders and land buyers . 
+
+3> Government Bodies :- Authorised government authorities can visit the site and can review the specific Project Status of builders , The Govenment owned lands they want to tender for construction can also be putup on the Webapplication and intrested builders can wishlist them as per their potential and intrest also by viewing the previous records of builders the government finds it suitable for providing the tender . 
+
+4> Admin :- The Admin Will be responsible for authorized data integration from NASA API , To view the amount of users visited on the webapp , the current projects running by the builders , Authorization of users .
+
+************************************************************ Action Plan **********************************************************************************
+
+1> Build a SignUp SignIn Page with Proper Client Side FormValidation and Google Captcha validation .
+2> Building Interactive Dashboards For Builders , Property Buyers , Government and Admin .
+
+**** For Builder ****
+a. Interactive Location Tracker With Real Time Data of that Area .
+b. Saving the Locations on Database with all the details and latitude and longitude .
+c. Viewing the saved Locations on the Builders Dashboard with Build Project Button .
+d. Onclick of Build Project the User along with all the data of that location should be redirected to a web tool where he can Plan the construction .
+e. Real Time Suggestion for the betterment of that Plan Using AI Model ( usually chatbot ,but if something better can be made then its good )
+f. onclicking save project the current project status should be saved and the project should be viewed On the *Current Project Part * of his dashboard.
+
+*** For Buyers ****
+a.    > Interactuve dashboard with location tracker and Real Time Data with Liveablility Score
+ a.1 >along with sustainablity Projects build by Builders  .
+b.    > Saving the data on database at Buyers Table .
+c.    > Can View All the current saved Properties ,  with Buy Now Button .
+d.   > On click of "Buy Now " they get directed to the builders profile and can contact them to but the property . 
+
+************************************************************* For Day 0 and Day 1 Hackathon ****************************************************************
+1> " For Builder ###"
+  Points :- b , c ,d ,e
+
+2> "For Buyers###"
+ points :- a.1 , b , c 
+
+************************************************************ Team Wise Distribution**********************************************************************
+
+Team Apurva :- Apurva , Pranjali , Samriddhi  Points :- b , c , a.1
+
+Team Samarth :- Samarth , Rahul , Nimish   Points :- d , e , b , c 
+ 
+ 
+*********************************************************************************************************************************************************
+
